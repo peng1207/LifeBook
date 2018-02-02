@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    title:"myTitile"
   },
 
   /**
@@ -61,5 +61,12 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+  buttonOnClick:function(e){
+    this.setData({
+      title:"button"
+    });
+  console.log("click ",e);
+
   }
 })
