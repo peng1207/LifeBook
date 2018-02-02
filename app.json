@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "page/index/index"
+  ],
+  "window":{
+    "navigationBarTextStyle":"blcak",
+    "navigationBarTitleText":"Life账本",
+    "navigationBarBackgroundColor":"#F8F8F8",
+    "backgroundColor":"red"
+  }
+}
