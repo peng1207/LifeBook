@@ -2,6 +2,8 @@
 
 .index-text{
   text-align: left;
-  color: blue;
+  color: #FF3300;
   font-size: 20px;
 }
+
+

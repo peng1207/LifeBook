@@ -1,5 +1,12 @@
-
 <view class="index-text">
 {{title}}
 </view>
-<button bindtap='buttonOnClick'>buttonOnClick</button>
+<button style='width:100px;font-size:12px;color:blue' bindtap='buttonOnClick'>buttonOnClick</button>
+ <view wx:key="listArrayID"  wx:for="{{listArray}}" > 
+ <view style='flex-direction:column'>
+  <text style='word-break: break-all'>indexindexindexindexindexindexindexindexindexindexindexindexindexindexindexindexindexindexindexindexindex:{{index}}</text>
+<text class='index-text'>{{item}}</text>
+ </view>
+
+</view> 
+

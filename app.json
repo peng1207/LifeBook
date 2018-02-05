@@ -3,9 +3,9 @@
     "page/index/index"
   ],
   "window":{
-    "navigationBarTextStyle":"blcak",
+    "navigationBarTextStyle":"white",
     "navigationBarTitleText":"Life账本",
-    "navigationBarBackgroundColor":"#F8F8F8",
+    "navigationBarBackgroundColor":"#FF3300",
     "backgroundColor":"#F8F8F8"
   }
 }
