@@ -5,5 +5,28 @@
   color: #FF3300;
   font-size: 20px;
 }
-
-
+.allView{
+  flex-direction: column;
+  display: flex;
+  background-color: #ffffff;
+  padding-left: 5px;
+}
+.contentView{
+  flex-direction: row;
+  display: flex;
+  background-color: #ffffff;
+}
+.button{
+  border-radius: 5px;
+  font-size: 12px;
+  border-width: 1px;
+  border-color: #FF3300;
+  color: blue;
+  height: 30px;
+  width: 100px;
+}
+.imageView{
+  width: 100px;
+  height: 100px;
+  background-color: #eeeeee;
+}
