@@ -2,14 +2,17 @@
 {{title}}
 </view>
 <button class='button' bindtap='buttonOnClick'>buttonOnClick</button>
- <view wx:key="listArrayID"  wx:for="{{listArray}}" > 
+<view class='listView'>
+<block wx:key="listID" wx:for="{{listArray}}"> 
  <view class='contentView'>
   <image class='imageView'></image>
   <view class='allView'>
-    <text style='word-break: break-all'>index:{{index}}</text>
+    <text class='indexText' >index:{{index}}</text>
     <text class='index-text'>{{item}}</text>
   </view>
-  </view>
+</view>
   <view class='lineView'></view>
-</view> 
+</block>
+</view>
+<view class='bottomView'></view>
 

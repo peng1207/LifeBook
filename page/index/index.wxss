@@ -1,18 +1,17 @@
 
-
 .index-text{
   text-align: left;
   color: #FF3300;
-  font-size: 20px;
+  font-size: 16px;
 }
 .allView{
-  flex-direction: column;
+  flex-direction: column; /* view的排列 上下 需加display: flex */
   display: flex;
   background-color: #ffffff;
-  padding-left: 5px;
+  padding-left: 5px; 
 }
 .contentView{
-  flex-direction: row;
+  flex-direction: row; /* view之间的排列 左右 需加display: flex */
   display: flex;
   background-color: #ffffff;
 }
@@ -29,4 +28,19 @@
   width: 100px;
   height: 100px;
   background-color: #eeeeee;
+}
+.bottomView{
+  position: fixed; /* 固定位置*/
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: rebeccapurple;
+}
+.listView{
+  margin-bottom:40px;
+}
+.indexText{
+  word-break: break-all; /* 字自动换行 */
+  font-size: 14px;
+  color: #333333; 
 }
