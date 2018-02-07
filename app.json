@@ -1,6 +1,8 @@
 {
   "pages":[
-    "page/index/index"
+    "page/index/index",
+    "page/create/create",
+    "page/bookDetaile/bookDetaile"
   ],
   "window":{
     "navigationBarTextStyle":"white",
