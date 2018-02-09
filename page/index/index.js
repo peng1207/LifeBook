@@ -5,7 +5,7 @@ Page({
    */
   data: {
     title: "myTitile",
-    listArray: [{ name: "1",age:12}, { name: "2" }, { name: "3" }, { name: "4" }, { name: "5" }, { name: "6" }, { name: "7" }, { name: "8" }, { name: "9" }, { name: "10" }, { name: "11" }, { name: "12" }, { name: "13" }, { name: "14" }, { name: "15" }, { name: "16" }]
+    listArray: [{ name: "1", age: 12 }, { name: "2" }, { name: "3" }, { name: "4" }, { name: "5" }, { name: "6" }, { name: "7" }, { name: "8" }, { name: "9" }, { name: "10" }, { name: "11" }, { name: "12" }, { name: "13" }, { name: "14" }, { name: "15" }, { name: "16" }]
   },
 
   /**
@@ -69,12 +69,68 @@ Page({
   buttonOnClick: function (e) {
     wx.navigateTo({
       url: '/page/create/create',
+    });
+    wx.setStorage({
+      key: 'huangshpeng',
+      data: {
+          "list":[
+            {
+              "year":"2017",
+              "month":"12",
+              "day":"01", 
+              "title":"11",
+              "price":"12.00",
+              "id":"01"
+            },
+            {
+              "year": "2017",
+              "month": "12",
+              "day": "01",
+              "title": "11",
+              "price": "12.00",
+              "id": "01"
+            },
+            {
+              "year": "2017",
+              "month": "12",
+              "day": "01",
+              "title": "11",
+              "price": "12.00",
+              "id": "01"
+            },
+            {
+              "year": "2017",
+              "month": "12",
+              "day": "02",
+              "title": "11",
+              "price": "12.00",
+              "id": "01"
+            },
+            {
+              "year": "2018",
+              "month": "12",
+              "day": "02",
+              "title": "11",
+              "price": "12.00",
+              "id": "01"
+            },
+            {
+              "year": "2018",
+              "month": "12",
+              "day": "02",
+              "title": "11",
+              "price": "12.00",
+              "id": "02"
+            }
+          ]     
+      },
     })
   },
-  cellAction:function(e){
+  cellAction: function (e) {
     console.log(e.currentTarget.dataset.name);
     wx.navigateTo({
-      url: "/page/bookDetaile/bookDetaile?name="+e.currentTarget.dataset.name.name,
+      url: "/page/bookDetaile/bookDetaile?name=" + e.currentTarget.dataset.name.name,
     });
+      
   }
 })
